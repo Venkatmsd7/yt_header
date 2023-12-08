@@ -77,3 +77,36 @@
     border-radius: 20px;
     margin-left: 25px;
 }
+.Content{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 1fr 1fr;
+    gap: 30px;
+    margin-top: 50px;
+    padding: 20px 20px 20px 20px;
+}
+.inside-div{
+   
+    height: 350px;
+    border-radius: 10px;
+    align-content: cente;
+
+}
+.sidebar{
+    grid-row-start: 1;
+    grid-row-end: 4;
+    border-style: solid;
+    border-color: black;
+}
+.thumbnail{
+    height: 240px;
+    width: 380px;
+    border-radius: 8px;
+  
+}
+.desc{
+    font-style: Arial;
+    font-weight: 600;
+    text-align: left;
+    font-size: 20px;
+    margin-top: 10px;
+}
